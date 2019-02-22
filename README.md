@@ -1,7 +1,7 @@
 # Emotion detection from facial expressions
 University project about Machine Learning
 
-Database for training:
+Datasets for training:
 
 https://github.com/muxspace/facial_expressions
 http://www.consortium.ri.cmu.edu/ckagree/
