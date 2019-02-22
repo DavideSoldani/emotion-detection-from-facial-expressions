@@ -14,10 +14,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #upload kaggle repository
-!git clone https://github.com/muxspace/facial_expressions.git
+	# !git clone https://github.com/muxspace/facial_expressions.git
 #upload shape_predictor_68_face_landmarks.dat used in dlib
-!git clone https://github.com/davisking/dlib-models.git
-!bzip2 -d dlib-models/shape_predictor_68_face_landmarks.dat.bz2
+	# !git clone https://github.com/davisking/dlib-models.git
+	# !bzip2 -d dlib-models/shape_predictor_68_face_landmarks.dat.bz2
 
 dlib_model = "dlib-models/shape_predictor_68_face_landmarks.dat"
 detector = dlib.get_frontal_face_detector()
